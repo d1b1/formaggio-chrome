@@ -1,0 +1,13 @@
+{
+  "name": "Cheese Library",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Add your cheese library and tasting list to your browser.",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "http://api.flickr.com/"
+  ]
+}
